@@ -121,3 +121,28 @@ down-banner section
     width: 100%;
     
 }
+
+/* -------------------
+footer part
+------------------------ */
+
+footer{
+    margin: 45px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer img{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.social-icon span{
+    margin: 0 5px;
+    
+}
+.footer p{
+    font-family: normal;
+}
