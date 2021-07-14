@@ -34,7 +34,8 @@ header{
     padding: 5%
 }
 .banner-info{
-    padding-left: 100x;
+    margin-left: 40px;
+    padding-top: 30px;
     padding-right: 0px;
 }
 .banner-title{
@@ -46,11 +47,12 @@ header{
 .link-button{
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 13px;
     padding: 5px 24px;
     color: white;
     border: none;
     background-color:  #E02C6D;
+    cursor: pointer;
 }
 .link-button p{
     margin-right: 8px;
@@ -89,4 +91,33 @@ header{
 .player p{
     font-family: normal;
     line-height: 26px;
+}
+
+/* ------------------------
+down-banner section 
+--------------------------*/
+
+.down-banner{
+    display: flex;
+    margin-top: 45px;
+}
+.down-banner-info , .down-banner-img{
+    width: 50%;
+    padding: 5%;
+}
+.down-banner-info{
+    margin-left: 40px;
+    padding-right: 0px;
+}
+.down-banner-info h1{
+    font-size: 45px;
+    margin-bottom: 7px;
+}
+.down-banner-info p{
+    font-family: normal;
+    line-height: 26px;
+}
+.down-banner-img img{
+    width: 100%;
+    
 }
