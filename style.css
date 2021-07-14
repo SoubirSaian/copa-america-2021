@@ -164,7 +164,7 @@ sponsor section
 }
 .sponsors{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     padding: 5%;
     
@@ -203,3 +203,40 @@ footer{
     font-family: normal;
 }
 
+
+/* --------------------
+media query 
+------------------------*/
+
+@media only screen and (max-width:688px){
+    .top-banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-info , .banner-img{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .photo-gallery{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .down-banner{
+        flex-direction: column;
+    }
+    .down-banner-info , .down-banner-img{
+        width: 100%;
+    }
+    .sponsors{
+        flex-direction: column;
+        
+    }
+    .sponsor.name{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}
