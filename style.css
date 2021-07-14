@@ -61,6 +61,15 @@ header{
 .banner-img img{
     width: 95%;
 }
+/* hover-effect */
+
+.hover-button:hover{
+    transform: scale(1.2);
+}
+.banner-img:hover img{
+    transform: scale(1.2) rotate(20deg);
+    transition: transform 1s;
+}
 
 /* -------------Player section ---------------*/
 
@@ -193,3 +202,4 @@ footer{
 .footer p{
     font-family: normal;
 }
+
